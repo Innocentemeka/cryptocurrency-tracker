@@ -50,7 +50,6 @@ const Homepage = () => {
       </div>
       <div className="table">
         <div className="table-layout">
-          <p>#</p>
           <p>Coins</p>
           <p>Price</p>
           <p style={{ textAlign: "center" }}>24H Change</p>
@@ -58,7 +57,6 @@ const Homepage = () => {
         </div>
         {displayCoin.slice(0, 10).map((item, index) => (
           <Link to={`/coins/${item.id}`} className="table-layout" key={index}>
-            <p>{item.market_cap_rank}</p>
             <div>
               <img src={item.image} alt="coin-image" />
               <p>{item.name + " - " + item.symbol}</p>
