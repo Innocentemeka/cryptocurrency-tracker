@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080808;
+  position: sticky;
+  top: 0;
+  padding: 10px 10%;
+  z-index: 3;
+}
+
+.navbar a {
+  font-size: 20px;
+}
+
+.navbar select {
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.navbar option {
+  background-color: #000fff;
+  color: #fff;
+}
